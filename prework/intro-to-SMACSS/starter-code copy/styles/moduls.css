@@ -1,0 +1,20 @@
+nav ul {
+    float: right;
+  }
+  
+  nav li {
+    float: left;
+    padding-right: 2px;
+  }
+  
+  
+  .print img {
+    margin-right: 3px;
+  }
+  
+footer section p{
+    padding: 50px 0;
+    line-height: 1.5em;
+    text-align: center;
+    color: #aaa;
+  }
