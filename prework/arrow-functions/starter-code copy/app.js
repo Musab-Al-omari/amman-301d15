@@ -108,27 +108,20 @@ console.log('Hello from the new object function', newObject(['hi', 'hello', 'are
 
 
 
-let sum = function(a, b, c, d) {
-  return a + b + c + d;
-};
+let sum = (a, b, c, d)=> {return a + b + c + d;};
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(sum(1, 2, 3, 4));
 
 
-let objectLit = function() {
-  return {
-    key1: 'value1',
-    key2: 'value2',
-    key3: 'value3',
-  };
-};
+let objectLit =()=> {
+  return {key1: 'value1',key2: 'value2',key3: 'value3',}};
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(objectLit());
 
 
-let sumAndProduct = function(a, b) {
+let sumAndProduct = (a, b) => {
   let sum = a + b;
   let product = a * b;
   return [sum, product];
@@ -138,9 +131,7 @@ let sumAndProduct = function(a, b) {
 console.log(sumAndProduct(3, 9));
 
 
-let message = function(name) {
-  return `Hello, ${name}!`;
-};
+let message = (name)=> {return `Hello, ${name}!`;};
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(message('Allie'));
@@ -158,6 +149,7 @@ let joe = new Student('Joe', 'Schmoe', 100);
 // Note that the arrow function will cause this code to break!
 console.log(joe);
 
+
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
 
@@ -174,7 +166,7 @@ console.log(joe.greeting());
 
 
 
-Student.courseName = function() {
+Student.courseName = ()=> {
   return 'This student is enrolled in Code 301.';
 };
 
