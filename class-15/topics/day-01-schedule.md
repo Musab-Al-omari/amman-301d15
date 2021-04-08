@@ -7,8 +7,8 @@
 - Choosing 3 Main Ideas for the project.
 - Copy This [trello board](https://trello.com/b/3KQwvS3F) , make it private, and add your teammates, your Lead Instructor (rawan.nujoom@gmail.com)
 and your TAs:
-emadzxy7@gmail.com
-hertani86@gmail.com
+emadzxy7@gmail.com, 
+hertani86@gmail.com, 
 waleed.farraj95@gmail.com
 
 - Get Approval from your Lead Instructor (Rawan) for an Idea.
@@ -27,9 +27,9 @@ waleed.farraj95@gmail.com
 
 - Create a Github Organization with the team Name.
 - Add your team members to your github Organization and your lead Instructor and TAs
-rawan.nujoom@gmail.com
-emadzxy7@gmail.com
-hertani86@gmail.com
+rawan.nujoom@gmail.com, 
+emadzxy7@gmail.com, 
+hertani86@gmail.com, 
 waleed.farraj95@gmail.com
 
 - Create a Github Repo in the Organization.
