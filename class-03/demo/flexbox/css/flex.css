@@ -1,0 +1,19 @@
+main {
+    display: flex;
+}
+
+#left, #main, #right {
+    height: 500px;
+}
+
+#left {
+    order: 1;
+}
+
+#right {
+    order: 3;
+}
+
+#main {
+    order: 2;
+}

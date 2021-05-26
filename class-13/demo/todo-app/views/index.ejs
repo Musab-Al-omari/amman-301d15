@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include('./layout/head') %> 
+    </head>
+    <body>
+        <header>
+          <%- include('./layout/header') %> 
+        </header>
+        <main>
+            <section>
+                List of my todo tasks
+                <ul>
+                   <% result.forEach(task=> { %>
+                       <li>
+                           <h3><a href="/task/<%= task.id %>"><%= task.title %></a></h3>
+                        </li>
+                  <% }) %>
+                </ul>
+            </section>
+           
+        </main>
+    </body>
+</html>

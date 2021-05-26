@@ -1,0 +1,19 @@
+#left, #right {
+    width: 25%;
+    float: left;
+    height: 500px;
+}
+#right {
+    float: right;
+}
+
+#main {
+    clear: none;
+    width: 50%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+footer {
+    clear: both;
+}

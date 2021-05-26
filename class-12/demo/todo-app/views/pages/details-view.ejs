@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include('../layout/head') %> 
+    </head>
+    <body>
+        <header>
+            <%- include('../layout/header') %> 
+        </header>
+        <main>
+            <section>
+                <h3><%= task.title %></h3>
+                <p>Description: <%=task.description %></p>
+                <p>Status: <%=task.status %></p>
+                <p>Date: <%=task.due_date %></p>
+            </section>
+        </main>
+    </body>
+</html>

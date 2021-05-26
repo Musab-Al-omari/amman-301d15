@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Templates</title>
+    </head>
+    <body>
+        <header>
+            <section><h1>Neighborhoods Example!</h1></section>
+        </header>
+        <main>
+            <!-- this is for version 2 -->
+            <section id="neighborhoods">
+                <div class="template">
+                    <h2 class="name"></h2>
+                    <p class="city"></p>
+                    <p class="population"></p>
+                </div>
+            </section>
+            <template id="mustache-template" type="text/x-tmpl-mustache">
+                <div class="template">
+                    <h2 class="name">{{{name}}}</h2>
+                    <p class="city">{{city}}</p>
+                    <p class="population">{{population}}</p>
+                    <p class="body">{{{body}}}</p>
+                </div>
+            </template>
+        </main>
+        <footer>
+            301d15
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.1.0/mustache.min.js"></script>
+        <script src="./scripts/dataSet.js"></script>
+       <script src="./scripts/neighborhood.js"></script>  
+    </body>
+</html>

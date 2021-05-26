@@ -1,0 +1,8 @@
+div, header, footer {
+    height: 200px;
+    border: 1px solid black;
+    background-color: #ccc;
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+}

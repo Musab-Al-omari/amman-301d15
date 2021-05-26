@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+    </head>
+    <body>
+        <h2>My List</h2>
+       <ul>
+          <%
+          <!-- myList = []; -->
+          myList.forEach(item=> { %>
+            <li>Item : <%=item %> </li>
+          <% }); %>
+       </ul>
+       <% if(myList.length ==0) { %>
+            <h3><%=msg%></h3>
+       <% } %>
+    </body>
+</html>
